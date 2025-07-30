@@ -14,7 +14,7 @@ const Search = () => {
 
   const fetchUsers = async () => {
     try {
-      const res = await axios.get("http://localhost:8000/api/v1/user/suggested", {
+      const res = await axios.get("https://connexa-0mua.onrender.com/api/v1/user/suggested", {
         withCredentials: true
       });
       if (res.data.success) {

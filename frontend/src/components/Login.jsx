@@ -31,7 +31,7 @@ const Login = () => {
     event.preventDefault();
     try {
       setLoading(true);
-      const res = await axios.post('http://localhost:8000/api/v1/user/login', input, {
+      const res = await axios.post('https://connexa-0mua.onrender.com/api/v1/user/login', input, {
         headers: {
           'Content-Type': 'application/json'
         },

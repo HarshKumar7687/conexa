@@ -22,7 +22,7 @@ const SuggestedUsers = () => {
   const handleFollowToggle = async (targetUserId) => {
     try {
       const res = await axios.post(
-        `http://localhost:8000/api/v1/user/followorunfollow/${targetUserId}`,
+        `https://connexa-0mua.onrender.com/api/v1/user/followorunfollow/${targetUserId}`,
         {},
         { withCredentials: true }
       );
@@ -34,7 +34,7 @@ const SuggestedUsers = () => {
         }));
 
         const suggestionRes = await axios.get(
-          "http://localhost:8000/api/v1/user/suggested",
+          "https://connexa-0mua.onrender.com/api/v1/user/suggested",
           { withCredentials: true }
         );
         dispatch(setSuggestedUsers(suggestionRes.data.users));

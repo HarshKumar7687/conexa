@@ -10,7 +10,7 @@ const useFollowUser = () => {
   const followOrUnfollow = async (targetUserId) => {
     try {
       const res = await axios.post(
-        `http://localhost:8000/api/v1/user/followorunfollow/${targetUserId}`,
+        `https://connexa-0mua.onrender.com/api/v1/user/followorunfollow/${targetUserId}`,
         {},
         { withCredentials: true }
       );

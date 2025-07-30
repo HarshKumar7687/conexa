@@ -67,7 +67,7 @@ function App() {
     if (user) {
       dispatch(resetLikeNotification());
 
-      const socketio = io('http://localhost:8000', {
+      const socketio = io('https://connexa-0mua.onrender.com', {
         query: {
           userId: user?._id,
         },

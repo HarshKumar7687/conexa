@@ -22,10 +22,7 @@ app.use(express.urlencoded({ extended: true }));
 
 // 2. CORS Setup
 const corsOptions = {
-  origin: [
-    'http://localhost:5173', // Vite dev server
-    'http://localhost:3000'  // production built frontend served from same server
-  ],
+  origin: process.env.URL,
   credentials: true,
 };
 app.use(cors(corsOptions));
