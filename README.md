@@ -70,15 +70,3 @@ Connexa/
 
 
 
-
-
-
-
-
-
----
-
-⚡ This README will make your project **look professional on GitHub & LinkedIn**.  
-
-Do you also want me to write a **short LinkedIn description (non-technical, catchy, recruiter-friendly)** that you can post along with your project link?
-
