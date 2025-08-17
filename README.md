@@ -67,3 +67,18 @@ Connexa/
 │-- .env                 # Environment variables
 │-- package.json         # Project dependencies
 │-- README.md            # Documentation
+
+
+
+
+
+
+
+
+
+---
+
+⚡ This README will make your project **look professional on GitHub & LinkedIn**.  
+
+Do you also want me to write a **short LinkedIn description (non-technical, catchy, recruiter-friendly)** that you can post along with your project link?
+
